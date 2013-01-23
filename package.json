@@ -1,0 +1,30 @@
+{
+  "name": "pk-extraction",
+  "version": "0.0.0",
+  "description": "Script for importing data from Helsinki's Palvelukartta to Ihan Hyvä Reittiopas",
+  "main": "./src/pk-extraction.js",
+  "bin": {
+    "pk-extraction": "./src/pk-extraction.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JaniL/pk-extraction.git"
+  },
+  "keywords": [
+    "reittiopas",
+    "palvelukartta",
+    "helsinki"
+  ],
+  "author": "Jani Luukko <jj.luukko@gmail.com>",
+  "contributors": [
+    {
+      "name": "Jani Luukko",
+      "email": "jj.luukko@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
