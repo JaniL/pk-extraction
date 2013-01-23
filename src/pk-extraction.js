@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var pk;
 
 pk = require('palvelukartta');
