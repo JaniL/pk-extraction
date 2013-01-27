@@ -4,9 +4,11 @@ A command-line app for extracting names and coordinates of places in Helsinki's 
 
 ## Usage
 
-If you've installed this globally (npm install -g pk-extraction), just run `pk-extraction`.
+The program takes as arguments names of cities and the corresponding filenames into which the station data should be added. For example:
 
-Otherwise run `node ./src/pk-extraction.js`. The data is retrieved from the REST API using the [palvelukartta package](https://github.com/JaniL/palvelukartta).
+    pk-extraction Helsinki=/path/to/helsinki.txt Vantaa=/path/to/vantaa.txt
+
+The data is retrieved from the REST API using the [palvelukartta module](https://github.com/JaniL/palvelukartta).
 
 Each line in stdout will be a placename and its coordinates (lon,lat) separated by a pipe.
 

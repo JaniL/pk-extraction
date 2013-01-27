@@ -1,6 +1,6 @@
 {
   "name": "pk-extraction",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Script for importing data from Helsinki's Palvelukartta to Ihan Hyvä Reittiopas",
   "main": "./src/pk-extraction.js",
   "bin": {
@@ -14,7 +14,8 @@
     "url": "https://github.com/JaniL/pk-extraction.git"
   },
   "dependencies": {
-    "palvelukartta": "0.1.x"
+    "palvelukartta": "0.1.x",
+    "underscore": "1.4.x"
   },
   "keywords": [
     "reittiopas",
