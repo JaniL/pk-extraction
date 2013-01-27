@@ -28,7 +28,9 @@ pk.itemRetrieve('unit', null, function(err, units) {
     filu = fs.createWriteStream(value, { flags: 'a', encoding: 'utf8' });
     filu.on('open', function() {
       paikat.forEach(function(unit) {
-        filu.write(unit.name_fi + "|" + unit.latitude + "," + unit.longitude + '\n');
+        if (unit.latitude !== undefined && unit.longitude !== undefined) {
+          filu.write(unit.name_fi + "|" + unit.latitude + "," + unit.longitude + '\n');
+        }
       });
       filu.destroySoon();
     });
