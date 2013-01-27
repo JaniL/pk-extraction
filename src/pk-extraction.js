@@ -17,7 +17,7 @@ args.forEach(function(arg) {
   a2[arg[0]] = arg[1];
 });
 
-console.log(a2);
+
 
 // Vuosaaren uimahalli|25.1416744,60.2088469
 // address_city_fi
